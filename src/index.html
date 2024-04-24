@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple omelette recipe, perfect for any meal. Learn how to make it step by step with this easy-to-follow guide."
+    />
+    <meta
+      name="keywords"
+      content="omelette recipe, cooking, eggs, breakfast, brunch, meal, easy recipe"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link href="../src/css/output.css" rel="stylesheet" />
+    <title>Recipe page - Omelette</title>
+  </head>
+  <body
+    class="flex flex-col justify-center items-center max-lg:w-screen mb-10 lg:mt-10 font-body bg-bg text-primary"
+  >
+    <main class="bg-white lg:rounded-3xl lg:p-8 lg:w-5/12">
+      <!-- Titre et image de la recette -->
+      <img
+        class="lg:rounded-xl"
+        src="../assets/images/image-omelette.jpeg"
+        alt="Photo d'omelette"
+      />
+      <div class="max-lg:px-8">
+        <section>
+          <h1 class="font-title font-medium text-4xl mt-9 mb-4">
+            Simple Omelette Recipe
+          </h1>
+          <p>
+            An easy and quick dish, perfect for any meal. This classic omelette
+            combines beaten eggs cooked to perfection, optionally filled with
+            your choice of cheese, vegetables, or meats.
+          </p>
+        </section>
+
+        <!-- Temps de préparation -->
+        <section class="bg-secondaryBg rounded-xl my-8 p-6">
+          <h3 class="text-secondaryTitle font-semibold text-xl">
+            Preparation time
+          </h3>
+          <ul class="list-disc marker:text-secondaryTitle marker:text-sm pl-6">
+            <li class="mt-3 pl-5">
+              <strong>Total:</strong> Approximately 10 minutes
+            </li>
+            <li class="mt-3 pl-5"><strong>Preparation:</strong> 5 minutes</li>
+            <li class="mt-3 pl-5"><strong>Cooking:</strong> 5 minutes</li>
+          </ul>
+        </section>
+
+        <!-- Liste des ingrédients -->
+        <section class="my-8 border-b-2 border-grey pb-8">
+          <h2 class="font-title text-title text-3xl mb-5">Ingredients</h2>
+          <ul class="list-disc marker:text-title marker:text-sm ml-6">
+            <li class="mt-3 pl-5">2-3 large eggs</li>
+            <li class="mt-3 pl-5">Salt, to taste</li>
+            <li class="mt-3 pl-5">Pepper, to taste</li>
+            <li class="mt-3 pl-5">1 tablespoon of butter or oil</li>
+            <li class="mt-3 pl-5">
+              Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            </li>
+          </ul>
+        </section>
+
+        <!-- Instructions -->
+        <section class="my-8 border-b-2 border-grey pb-8">
+          <h2 class="font-title text-title text-3xl mb-5">Instructions</h2>
+          <ol class="list-decimal marker:text-title marker:font-bold ml-6">
+            <li class="mt-3 pl-5">
+              <strong>Beat the eggs:</strong>In a bowl, beat the eggs with a
+              pinch of salt and pepper until they are well mixed. You can add a
+              tablespoon of water or milk for a fluffier texture.
+            </li>
+            <li class="mt-3 pl-5">
+              <strong>Heat the pan:</strong> Place a non-stick frying pan over
+              medium heat and add butter or oil.
+            </li>
+            <li class="mt-3 pl-5">
+              <strong>Cook the omelette:</strong> Once the butter is melted and
+              bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly
+              coat the surface.
+            </li>
+            <li class="mt-3 pl-5">
+              <strong>Add fillings (optional):</strong> When the eggs begin to
+              set at the edges but are still slightly runny in the middle,
+              sprinkle your chosen fillings over one half of the omelette.
+            </li>
+            <li class="mt-3 pl-5">
+              <strong>Fold and serve:</strong> As the omelette continues to
+              cook, carefully lift one edge and fold it over the fillings. Let
+              it cook for another minute, then slide it onto a plate.
+            </li>
+            <li class="mt-3 pl-5">
+              <strong>Enjoy:</strong> Serve hot, with additional salt and pepper
+              if needed.
+            </li>
+          </ol>
+        </section>
+
+        <!-- Valeurs nutritives -->
+        <section class="mt-8 mb-2">
+          <h2 class="font-title text-title text-3xl mb-5">Nutrition</h2>
+          <p>
+            The table below shows nutritional values per serving without the
+            additional fillings.
+          </p>
+          <div
+            class="flex flex-row items-center mt-6 border-b-2 border-grey pb-3"
+          >
+            <span class="basis-1/2 ml-8">Calories</span>
+            <strong class="basis-1/2 ml-6 text-title">277kcal</strong>
+          </div>
+          <div
+            class="flex flex-row items-center mt-3 border-b-2 border-grey pb-3"
+          >
+            <span class="basis-1/2 ml-8">Carbs</span>
+            <strong class="basis-1/2 ml-6 text-title">0g</strong>
+          </div>
+          <div
+            class="flex flex-row items-center mt-3 border-b-2 border-grey pb-3"
+          >
+            <span class="basis-1/2 ml-8">Protein</span>
+            <strong class="basis-1/2 ml-6 text-title">20g</strong>
+          </div>
+          <div class="flex flex-row items-center mt-3">
+            <span class="basis-1/2 ml-8">Fat</span>
+            <strong class="basis-1/2 ml-6 text-title">22g</strong>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="text-center mt-5">
+      <span class="max-lg:block">
+        Challenge by
+        <a
+          class="font-title text-title text-sm hover:opacity-80"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >.
+      </span>
+      <span
+        >Coded by
+        <a
+          class="font-title text-title text-sm hover:opacity-80"
+          href="https://github.com/Cyrilebl"
+          target="_blank"
+          >Cyril Leblanc</a
+        >.</span
+      >
+    </footer>
+  </body>
+</html>
