@@ -4,3 +4,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .margin {
+    @apply mt-3 pl-5;
+  }
+
+  .flex {
+    @apply flex flex-row items-center;
+  }
+}
